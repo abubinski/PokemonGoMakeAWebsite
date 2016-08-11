@@ -1,7 +1,12 @@
 body {
-    background:red;
+    background-color: #33BBFF;
+
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url(styles/Pokemon Solid.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "Pokemon Solid", Verdana, Tahoma;
 }
 
-h1 { 
-    font-family: sans-serif; 
 }
