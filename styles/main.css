@@ -1,12 +1,36 @@
 body {
     background-color: #33BBFF;
-
-@font-face {
-    font-family: "Pokemon Solid";
-    src: url(styles/Pokemon Solid.ttf) format("truetype");
-}
-p.customfont { 
-    font-family: "Pokemon Solid", Verdana, Tahoma;
+   
 }
 
+@font-face {
+	font-family: 'Conv_Pokemon Solid Normal';
+	src: url('styles/Pokemon Solid Normal');
+	src: local('☺'), url('styles/Pokemon Solid Normal.woff') format('woff'), url('styles/Pokemon Solid Normal.ttf') format('truetype'), url('styles/Pokemon Solid Normal.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Pokemon Hollow';
+	src: url('styles/Pokemon Hollow');
+	src: local('☺'), url('styles/Pokemon Hollow.woff') format('woff'), url('styles/Pokemon Hollow.ttf') format('truetype'), url('styles/Pokemon Hollow.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+	font-family: 'Pokemon Solid Normal';
+	font-size: 3em;
+	letter-spacing: 3px;
+}
+h2 {
+	font-family: 'Pokemon Hollow';
+	
+}
+ul {
+	font-family: Tahoma;
+}
+
+p {
+	font-family: Tahoma;
 }
