@@ -47,7 +47,49 @@ ul {
 p {
 	font-family: 'Pokemon Hollow';
 	font-size: 3em;
-	padding: 10px 50px 10px;
+	padding: 5px 50px 10px;
 	font-style: bold;
 }
 .centerImage {text-align: center;}
+
+.funbut {
+	background-color:red;
+	padding:10px;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#fff;
+	background-image: linear-gradient(bottom, red 0%, red 100%);
+	box-shadow: inset 0px 1px 0px indianred orangered, 0px 6px 0px darkred;
+	border-radius: 5px;
+}
+
+.funbut:active {
+	top:7px;
+	background-image: linear-gradient(bottom, blue 100%, blue 0%);
+	box-shadow: inset 0px 1px 0px darkblue cornflowerblue, inset 0px -1px 0px darkblue;
+	color: #156785;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	background: rgb(44,160,202);
+}
+.funbut::before {
+	background-color:#072239;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:4px;
+	left:-2px;
+	top:5px;
+	z-index:-1;
+	border-radius: 6px;
+	box-shadow: 0px 1px 0px #fff;
+}
+
+.funbut::before {
+	top:-2px;
+}
